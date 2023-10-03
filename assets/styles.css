@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: ;
+    background-image:url(./vapor\ grid\ background.jpg);
 
 }
 
@@ -15,25 +15,25 @@ header {
     min-height: 15rem;
     display: flex;
     justify-content: space-between;
-    background-image: ;
-    border-bottom: solid 10px;
+    background-image: url(./vapor\ background.jpg);
+    border-bottom: solid 10px rgb(133, 1, 133);
     /* adds layout styling for the header */
 
 }
 
 header h1 {
     width: 30%;
-    margin: left: 2rem;
-    font-family: ;
+    margin-left: 2rem;
+    font-family: "orbitron", sans-serif;
     font-size: 5rem;
-    color: ;
+    color: rgb(0, 248, 174);
     
-    /* adds styleing to the header */
+    /* adds styling to the header */
 }
 
-<nav {
+nav {
     width: 60%;
-    font-family: ;
+    font-family:"orbitron", sans-serif ;
 
     /* adds styling structure to the nav bar */
 }
@@ -48,7 +48,7 @@ ul {
 }
 
 a{
-    color:blueviolet;
+    color:cyan;
     /* adds color to nav text */
 }
 main {
@@ -62,17 +62,19 @@ main {
     display: flex;
     min-width: 80%;
     margin-top: 5%;
-    background-color: aqua;
-    border: solid 10px yellow;
+    background-color: black ;
+    border: solid 10px rgb(255, 0, 140);
     border-radius: 2rem;
-    /* adds styling structure to the boxes comtaining the content on the page */
+    /* adds styling structure to the boxes containing the content on the page */
 }
 
 .sub-title {
     width: 20%;
-    border-right: 5px solid grey;
-    font-family: ;
-    padding-right: 2rem;
+    border-right: 5px solid rgb(255, 0, 140);
+    font-family:"orbitron", sans-serif ;
+    color:rgb(0, 248, 174) ;
+    padding-right: 2%;
+    font-size: 2rem;
     /* adds style to the subtitle side bar */
 }
 
@@ -94,12 +96,22 @@ h2 {
     /* moves h2 to the right */
 }
 
+img {
+    margin-bottom: 0;
+    border: solid 10px cyan;
+    border-radius: 2rem;
+    /* adds border to images */
+
+}
+
 #p-pic {
-    margin-top: 5rem;
+    margin-top: 3.5rem;
+    
 }
 
 p {
-    font-family: ;
+    font-family:"roboto", sans-serif ;
+    color: cyan;
     letter-spacing: 2px;
     font-size: 1.5rem;
     margin-top: 1rem;
@@ -109,6 +121,7 @@ p {
 
 #about div img {
     width: 100%;
+    
     /* resizes profile picture */
 }
 
@@ -118,8 +131,8 @@ p {
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px;
-    transition: transform 02s;
-    background-color: aliceblue;
+    transition: transform .2s;
+    background-color: rgb(37, 66, 66) ;
     /* adds style to boxes that contain my projects */
 }
 
@@ -142,12 +155,12 @@ p {
 
 .p-title {
     font-size: 1.5rem;
-    color: bisque;
+    color: cyan;
     /* edits font size and color for project squares */
 }
 
 .last-a {
-    color: black;
+    color: cyan;
     /* edits font colors for contact text */
 }
 
@@ -156,7 +169,7 @@ p {
     flex-wrap: wrap;
     justify-content:space-between;
     font-size: 2rem;
-    color: black;
+    color: cyan;
     align-items: center;
     /* adds styling structure to contact container */
 }
