@@ -142,6 +142,8 @@ p {
     /* makes first project bigger */
 }
 
+
+
 .project:hover {
     transform: scale(1.5);
     /* resizes project squares */
