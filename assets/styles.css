@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* css reset */
+}
+
+body {
+    background-image: ;
+
+}
+
+header {
+    max-width: 100%;
+    min-height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    background-image: ;
+    border-bottom: solid 10px;
+    /* adds layout styling for the header */
+
+}
+
+header h1 {
+    width: 30%;
+    margin: left: 2rem;
+    font-family: ;
+    font-size: 5rem;
+    color: ;
+    
+    /* adds styleing to the header */
+}
+
+<nav {
+    width: 60%;
+    font-family: ;
+
+    /* adds styling structure to the nav bar */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 3rem;
+    padding-top: 1%;
+}
+
+a{
+    color:blueviolet;
+    /* adds color to nav text */
+}
+main {
+    padding: 5%;
+    margin: 5%;
+    /* edits padding and margin for everything below the header */
+
+}
+
+.container {
+    display: flex;
+    min-width: 80%;
+    margin-top: 5%;
+    background-color: aqua;
+    border: solid 10px yellow;
+    border-radius: 2rem;
+    /* adds styling structure to the boxes comtaining the content on the page */
+}
+
+.sub-title {
+    width: 20%;
+    border-right: 5px solid grey;
+    font-family: ;
+    padding-right: 2rem;
+    /* adds style to the subtitle side bar */
+}
+
+.main-content {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* addds styling structure to the 3 content boxes below the header */
+
+}
+
+#about div {
+    width: 30%;
+}
+
+h2 {
+    margin-left: 3rem;
+    /* moves h2 to the right */
+}
+
+#p-pic {
+    margin-top: 5rem;
+}
+
+p {
+    font-family: ;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* adds styling to bio paragraph */
+}
+
+ {
+    width: 45%;
+    margin: 1%;
+    border: 1px solid;
+}
