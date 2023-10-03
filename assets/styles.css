@@ -107,8 +107,141 @@ p {
     /* adds styling to bio paragraph */
 }
 
- {
+#about div img {
+    width: 100%;
+    /* resizes profile picture */
+}
+
+ .project {
     width: 45%;
     margin: 1%;
     border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    transition: transform 02s;
+    background-color: aliceblue;
+    /* adds style to boxes that contain my projects */
 }
+
+.project:first-child {
+    min-height: 400px;
+    flex-basis: 95%;
+    /* makes first project bigger */
+}
+
+.project:hover {
+    transform: scale(1.5);
+    /* resizes project squares */
+}
+
+.project a img {
+    width: 95%;
+    height: 90%;
+    /* resizes project squares */
+}
+
+.p-title {
+    font-size: 1.5rem;
+    color: bisque;
+    /* edits font size and color for project squares */
+}
+
+.last-a {
+    color: black;
+    /* edits font colors for contact text */
+}
+
+#c-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-size: 2rem;
+    color: black;
+    align-items: center;
+    /* adds styling structure to contact container */
+}
+
+@media only screen and (max-width: 1600px) {
+    /* adds responisve layout for bigger acreens */
+    .container {
+        display: block;
+        width: 90%;
+        padding: 5%;
+    }
+
+    .sub-title {
+        width: 100%;
+        border-bottom: 5px solid black;
+    }
+
+    .main-content {
+        width: 90%;
+        display: block;
+        text-align: center;
+        padding: 5%;
+        margin: 5%;
+    }
+
+    #about div {
+        width: 100%
+    }
+
+    #project {
+        display: flex;
+    }
+
+    .project {
+        width: 45%;
+        margin: 1%;
+        padding: 1%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* adds responsive layout for small screens */
+    header {
+        display: block;
+        text-align: center;
+
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    ul {
+        font-size: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    .project {
+        width: 90%;
+        flex-basis: 90%;
+        min-height:250px
+    }
+
+
+   .c-list li{
+        word-wrap:break-word;
+        text-align: center;
+    }
+
+    #email{
+        font-size: 1rem;
+    }
+
+
+
+    /* .project:first-child {
+        height: 100%;
+        flex-basis: 95%;
+
+    } */
+
+}
+
+
