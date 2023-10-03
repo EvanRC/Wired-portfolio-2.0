@@ -15,7 +15,7 @@ N/A
 Please refer to license in the repo.
 
 ## Website URL:
-https://evanrc.github.io/Wired-Portfolio/
+https://evanrc.github.io/Wired-portfolio-2.0/
 
 ## ScreenShot:
 ![image](https://github.com/EvanRC/Wired-portfolio-2.0/assets/124648885/0619d3bb-08af-4735-865d-168f3a983ff3)
