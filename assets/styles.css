@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image:url(./vapor\ grid\ background.jpg);
+    background-image: url(./vapor\ grid\ background.jpg);
 
 }
 
@@ -27,13 +27,13 @@ header h1 {
     font-family: "orbitron", sans-serif;
     font-size: 5rem;
     color: rgb(0, 248, 174);
-    
+
     /* adds styling to the header */
 }
 
 nav {
     width: 60%;
-    font-family:"orbitron", sans-serif ;
+    font-family: "orbitron", sans-serif;
 
     /* adds styling structure to the nav bar */
 }
@@ -47,10 +47,11 @@ ul {
     padding-top: 1%;
 }
 
-a{
-    color:cyan;
+a {
+    color: cyan;
     /* adds color to nav text */
 }
+
 main {
     padding: 5%;
     margin: 5%;
@@ -62,7 +63,7 @@ main {
     display: flex;
     min-width: 80%;
     margin-top: 5%;
-    background-color: black ;
+    background-color: black;
     border: solid 10px rgb(255, 0, 140);
     border-radius: 2rem;
     /* adds styling structure to the boxes containing the content on the page */
@@ -71,8 +72,8 @@ main {
 .sub-title {
     width: 20%;
     border-right: 5px solid rgb(255, 0, 140);
-    font-family:"orbitron", sans-serif ;
-    color:rgb(0, 248, 174) ;
+    font-family: "orbitron", sans-serif;
+    color: rgb(0, 248, 174);
     padding-right: 2%;
     font-size: 2rem;
     /* adds style to the subtitle side bar */
@@ -83,7 +84,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* addds styling structure to the 3 content boxes below the header */
+    /* adds styling structure to the 3 content boxes below the header */
 
 }
 
@@ -106,11 +107,11 @@ img {
 
 #p-pic {
     margin-top: 3.5rem;
-    
+
 }
 
 p {
-    font-family:"roboto", sans-serif ;
+    font-family: "roboto", sans-serif;
     color: cyan;
     letter-spacing: 2px;
     font-size: 1.5rem;
@@ -121,18 +122,18 @@ p {
 
 #about div img {
     width: 100%;
-    
+
     /* resizes profile picture */
 }
 
- .project {
+.project {
     width: 45%;
     margin: 1%;
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px;
     transition: transform .2s;
-    background-color: rgb(37, 66, 66) ;
+    background-color: rgb(37, 66, 66);
     /* adds style to boxes that contain my projects */
 }
 
@@ -169,7 +170,7 @@ p {
 #c-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     font-size: 2rem;
     color: cyan;
     align-items: center;
@@ -177,6 +178,7 @@ p {
 }
 
 @media only screen and (max-width: 1600px) {
+
     /* adds responisve layout for bigger acreens */
     .container {
         display: block;
@@ -213,6 +215,7 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
+
     /* adds responsive layout for small screens */
     header {
         display: block;
@@ -236,16 +239,16 @@ p {
     .project {
         width: 90%;
         flex-basis: 90%;
-        min-height:250px
+        min-height: 250px
     }
 
 
-   .c-list li{
-        word-wrap:break-word;
+    .c-list li {
+        word-wrap: break-word;
         text-align: center;
     }
 
-    #email{
+    #email {
         font-size: 1rem;
     }
 
@@ -258,5 +261,3 @@ p {
     } */
 
 }
-
-
